@@ -1,12 +1,13 @@
 <html>
-<head>
-    <title>Latihan 1</title>
-</head>
-<body>
-    Halo Kawan .. Yuk kita belajar<br>
-    Nilai 1 = <?= $nilai1;?>
-    Nilai 2 = <?= $nilai2;?>
-    ini hasil dari pemodelan dengan metode penjumlahan yaitu
-    <?= $nilai1."+".$nilai2."=".$hasil;?>
-</body>
+    <head>
+        <title>latihan 1</title>
+    </head>
+    <body>
+        halo kawa.. yuk kita belajar programing...!!! <br>
+        nilai 1 = <?= $nilai1 ?>
+        nilai 2 = <?= $nilai2 ?>
+        ini hasil dari permodelan dengan metode penjumlahan yaitu <?= $nilai1 . " + "
+        . $nilai2 . " = " . $hasil; ?>
+
+    </body>
 </html>
